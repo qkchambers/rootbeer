@@ -3,5 +3,5 @@
 #
 
 FROM ubuntu:14.04
-COPY exploit.sh /exploit.sh
+COPY exploit.sh /bin/exploit.sh
 CMD ["exploit.sh"]
